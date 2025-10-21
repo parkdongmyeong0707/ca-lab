@@ -12,6 +12,7 @@ public class Main {
                 .addSignupUseCase()
                 .addLoginUseCase()
                 .addChangePasswordUseCase()
+                .addLogoutUseCase()  // TODO: add the logout use case to the app
                 .build();
 
         application.pack();
